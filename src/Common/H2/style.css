@@ -1,0 +1,15 @@
+h2 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #FFC13E;
+    color: #263238;
+    width: fit-content;
+}
+
+@media screen and (max-width: 992px) {
+    h2 {
+        font-size: 24px;
+    }
+    
+}

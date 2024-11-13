@@ -1,0 +1,21 @@
+.section-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #14212A;
+    color: #FFC13E;
+    padding: 16px 0;
+}
+
+.text-icon-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+@media screen and (max-width: 992px) {
+    .text-icon-container {
+        display: none;
+    }
+    
+}

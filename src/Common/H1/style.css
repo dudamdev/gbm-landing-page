@@ -1,0 +1,18 @@
+h1 {
+    display: inline-block;
+    max-width: 557px;
+    width: fit-content;
+    font-size: 48px;
+    font-weight: 700;
+    background-color: #FFC13E;
+    color: #263238;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 32px;
+        max-width: 557px;
+
+    }
+    
+}

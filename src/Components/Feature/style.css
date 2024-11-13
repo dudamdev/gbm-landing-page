@@ -1,0 +1,13 @@
+.feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px 0;
+}
+
+@media screen and (max-width: 992px) {
+    .feature-container {
+        display: none;
+    }
+    
+}

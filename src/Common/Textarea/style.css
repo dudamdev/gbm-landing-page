@@ -1,0 +1,13 @@
+.textarea-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.textarea-container textarea {
+    padding: 8px;
+    border: 1px solid #263238;
+    border-radius: 8px;
+    outline: none;
+    font-family: "Inter", sans-serif;
+}

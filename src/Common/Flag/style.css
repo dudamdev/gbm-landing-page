@@ -1,0 +1,9 @@
+.flag-img {
+    width: 25px;
+}
+
+@media screen and (max-width: 992px) {
+    .flag-img {
+        width: 20px;
+    }
+}

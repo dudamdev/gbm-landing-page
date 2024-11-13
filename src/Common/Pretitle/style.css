@@ -1,0 +1,31 @@
+.border {
+    width: 2px;
+    height: 30px;
+    background-color: #FFC13E;
+}
+
+.pretitle-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.pretitle {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+    .border {
+        height: 15px;
+    }
+
+    .pretitle-container {
+        gap: 8px;
+    }
+
+    .pretitle {
+        font-size: 14px;
+    }
+    
+}

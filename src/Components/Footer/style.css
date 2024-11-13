@@ -1,0 +1,15 @@
+footer {
+    background: #FFC13E;
+    padding: 8px 16px;
+    text-align: end;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+    footer {
+        text-align: center;
+        font-size: 8px;
+    }
+    
+}
