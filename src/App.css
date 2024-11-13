@@ -34,4 +34,10 @@ a:hover {
   transform: scale(1.08); 
 }
 
+@media screen and (max-width: 992px) {
+  a:hover {
+    transform: none; 
+  }
+  
+}
 
